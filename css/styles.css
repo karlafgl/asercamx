@@ -1,7 +1,7 @@
 header {
     position: relative;
     background-color: black;
-    height: 85vh;
+    height: 75vh;
     min-height: 25rem;
     width: 100%;
     overflow: hidden;
@@ -14,7 +14,7 @@ header video {
     min-width: 100%;
     min-height: 100%;
     width: auto;
-    height: 40%;
+    height: auto;
     z-index: 0;
     -ms-transform: translateX(-50%) translateY(-50%);
     -moz-transform: translateX(-50%) translateY(-50%);
@@ -22,40 +22,28 @@ header video {
     transform: translateX(-50%) translateY(-50%);
 }
 
-
-/*  */
-
-.videopromo {
+header .container {
     position: relative;
-    background-color: black;
-    height: 60vh;
-    min-height: 25rem;
-    width: 100%;
-    overflow: hidden;
+    z-index: 2;
 }
 
-.videopromo video {
+header .overlay {
     position: absolute;
-    top: 35%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    z-index: 0;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
 }
-
-
-/* */
 
 .textPink {
-    color: #42b0b7
+    color: #e83e8c
 }
 
 .bg-pink {
-    background: #42b0b7
+    background: #e83e8c
 }
 
 .fixed-top.scrolled {
