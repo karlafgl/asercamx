@@ -216,18 +216,31 @@
 
     <!-- About me -->
     <section class="container-fluid mt-3 pl-5 pr-5 justify-content-center shadow-lg p-3 mb-5 bg-white rounded" id="aboutMe">
+        <p class="font-weight-bold my-5 display-4 text-center">Our team</p>
         <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-12 card border-0  mt-4">
-                <p class="font-weight-bold my-5 display-4 text-center">About me</p>
+            <div class="col-lg-2 col-md-2 col-sm-12 card border-0  mt-4">
+
                 <div class="mx-auto mb-4 about-content-left">
                     <img src="img/meAvatar.png" class="rounded-circle img-fluid " height="150" width="150" alt="Karla Gonzalez profile-photo">
                 </div>
                 <div class="text-center mb-5 about-content-left">
                     <p class="h6">
-                        <i class="fas fa-quote-left"></i>Technology lover with speciality on Front-End development with many years of experience in the field. Everything that the human mind can conceive and believe can be achieved. Let me help you to
+                        <i class="fas fa-quote-left"></i>Technology lover with a speciality on Front-End development with many years of experience in the field. Everything that the human mind can conceive and believe can be achieved. Let me help you to
                         achieve your goals.
                     </p>
                     <h4 class="font-weight-bold">Karla Gonzalez</h4>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-12 card border-0  mt-4">
+                <div class="mx-auto mb-4 about-content-left">
+                    <img src="img/marco.jpeg" class="rounded-circle img-fluid " height="150" width="150" alt="Marcos Roldan profile-photo">
+                </div>
+                <div class="text-center mb-5 about-content-left">
+                    <p class="h6">
+                        <i class="fas fa-quote-left"></i>With academic training in Business and experience in trend analysis, creating messages and group management, the support he provides focuses on detecting areas of opportunity for his project and
+                        managing solutions: “Do what you can, with what you have”.
+                    </p>
+                    <h4 class="font-weight-bold">Marcos Roldan</h4>
                 </div>
             </div>
             <div class="col-lg-8 col-md-8 col-sm-12 mt-4 pl-5 pt-3 pr-5">
@@ -419,6 +432,25 @@
     <!--  pluggins JS parallax-->
     <script src="scripts/parallax.min.js"></script>
     <script src="scripts/jquery.easing.min.js"></script>
+
+    <script>
+        var BotStar = {
+            appId: "s6bbcca2c-a871-4e18-85c6-e9a49336b556",
+            mode: "livechat"
+        };
+        ! function(t, a) {
+            var e = function() {
+                (e.q = e.q || []).push(arguments)
+            };
+            e.q = e.q || [], t.BotStarApi = e;
+            ! function() {
+                var t = a.createElement("script");
+                t.type = "text/javascript", t.async = 1, t.src = "https://widget.botstar.com/static/js/widget.js";
+                var e = a.getElementsByTagName("script")[0];
+                e.parentNode.insertBefore(t, e)
+            }();
+        }(window, document)
+    </script>
 </body>
 
 </html>
